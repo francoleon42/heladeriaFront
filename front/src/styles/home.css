@@ -1,0 +1,58 @@
+.container-home {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover; 
+    background-position: center; /* Centra la imagen en el fondo */
+}
+.container-sub {  
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: #dedede; 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 2px 2px 4px 1px;
+}
+
+
+
+.boton-inicio{
+    min-width: 300px;
+    padding: 0.8em;
+    border-radius: 1em;
+    background-color: #157447; 
+    color: #ddd; /* Texto oscuro para contraste */
+    outline: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton-inicio:hover {
+    background-color: #04361f;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #333, #222);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+/* Media queries para hacerlo responsive */

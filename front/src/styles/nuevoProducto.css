@@ -1,0 +1,98 @@
+.container-nuevoProducto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    background-size: cover; 
+    background-position: center; 
+}
+
+.subtitulo-nuevoProducto {
+    font-size: 2rem; 
+    color: #07398E; 
+    text-align: center;
+}
+
+.registro-producto{
+    box-shadow: 2px 2px 4px 1px;
+    padding: 1em; 
+    border-radius: 0.7em;
+    background-color: #dedede;
+}
+
+label {
+    font-weight: bold;
+    color: #222;
+}
+
+input {
+    padding: 0.6em;
+    outline: none;
+}
+
+input:focus{
+    border: solid #047440 2px;
+    transition: 0.1s;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+    width: 100%; 
+    max-width: 400px; 
+}
+.input-umbral{
+    margin-bottom: 1em;
+}
+.boton-generar-qr {
+    min-width: 300px;
+    background-color: #bababa; 
+    
+    color: #2d3436; 
+    border: none;
+    border-radius: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton-generar-qr:hover {
+    color: white;
+    border: solid white 1px;
+    transition: 0.2s;
+}
+
+.qr-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.boton-qr-imprimir {
+    margin: auto;
+    padding: 0.8em;
+    background-color: #636e72; 
+    color: #fff; 
+    border: none;
+    border-radius: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.boton-qr-imprimir:hover {
+    background-color: #012e19; 
+}
+
+.container-boton-imprimir-qr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    max-width: 400px; 
+}
