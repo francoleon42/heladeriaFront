@@ -9,7 +9,7 @@ import Notificaciones from "../components/Home/Notificaciones";
 
 export const MyRoutes = () => {
   return (
-    <Router basename="/gestor-De-Stock-QR"> {/* Asegúrate de que coincida con el nombre de tu repositorio */}
+    <Router basename="/heladeriaFront"> {/* Asegúrate de que coincida con el nombre de tu repositorio */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/agregar-nuevo-producto" element={<NuevoProducto />} />
